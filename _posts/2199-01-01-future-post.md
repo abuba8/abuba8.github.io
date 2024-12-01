@@ -1,11 +1,11 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+title: 'Introduction to LLMs <a style="color:black" href="https://medium.com/@abuba831/introduction-to-language-ai-and-large-language-models-26c2bcc79ad8" target="_blank">[Medium]</a>'
+date: 2024-11-29
+permalink: www.medium.com/@abuba831
 tags:
-  - cool posts
-  - category1
-  - category2
+  - LLMs
+  - Tokenizer
+  - Representation vs Generative 
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+<!-- [Link to Medium Post](https://medium.com/@abuba831/introduction-to-neural-networks-a-brief-intro-on-activation-functions-loss-functions-optimizers-183c4b9c7335) -->

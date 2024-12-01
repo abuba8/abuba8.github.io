@@ -1,15 +1,17 @@
 ---
-title: "Teaching experience 1"
+title: "Undergraduate Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "CS 469: Data Science"
+# permalink: /teaching/2014-spring-teaching-1
+venue: "Faculty of AI, Computer Science Department, Air University"
+date: 2020-07-01
+location: "Islamabad, Pakistan"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+- Assisted with planning the syllabus, organizing guest lectures, designing course and lab assignments, and collecting feedback for CS469: Data Science.
+- Instructor: <a href="https://scholar.google.com.pk/citations?user=Rrs55QEAAAAJ&hl=en" target="_blank">Dr. Syed Atif Mouqarrab</a>
 
+<!-- 
 Heading 1
 ======
 
@@ -17,4 +19,4 @@ Heading 2
 ======
 
 Heading 3
-======
+====== -->

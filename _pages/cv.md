@@ -11,37 +11,54 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* <strong>M.Sc. Artificial Intelligence</strong>, <i>University of Essex</i>, Colchester, United Kingdom -- 2024
+  * <strong>Grade:</strong> Distinction (86%, CGPA: 4.0)
+  * Academic Excellence Scholarship
+  * <strong>Coursework:</strong> Coursework: Deep Learning, Machine Learning, Natural Language Engineering, Intelligent Systems and Robotics, Data Science and Decision Making, Big Data for Computational Finance
+  * <strong>Dissertation Advisor:</strong> <a href="https://www.essex.ac.uk/people/CITIL35902/Luca-Citi" target="_blank">Dr. Luca Citi</a>
+* <strong>B.Sc. Computer Science</strong>, <i>Air University</i>, Islamabad, Pakistan -- 2020
+  * <strong>Grade:</strong> CGPA: 3.17, CS Majors: 3.41
+  * <strong>Coursework:</strong> Data Science, Artificial Intelligence, Data Structures and Algorithms, Design and Analysis of Algorithms, Database Systems, Computer Communication and Networks, Full Stack Web Development, Game Design
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* <strong>Research Engineer - Machine Learning</strong>, <i>Air University</i> -- June 2022 - March 2023 
+  * Led multiple research projects including Fake Job Classification, Sentiment Analysis of Covid Vaccine Opinions, and ECG Classification on PhysioNet.
+  * Scraped and labeled 10,000+ tweets for sentiment analysis of the Pakistani public regarding Covid vaccines, fine-tuned BERT, and achieved a 95.62 F1 score. Analysis revealed 42% neutral, 41% positive, and 17% negative sentiments.
+  * Designed a hybrid residual-inception network for ECG classification on a Kaggle PhysioNet dataset, achieving a third-best score of 50.87%.
+  * <strong>Supervisor:</strong> <a href="https://scholar.google.com.pk/citations?user=Rrs55QEAAAAJ&hl=en" target="_blank">Dr. Syed Atif Mouqarrab</a>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* <strong>Junior Machine Learning Engineer</strong>, <i>Neurog</i> -- October 2021 - May 2022
+  * Collaborated with cross-functional teams to develop end-to-end data-driven solutions for NFT price prediction and multimodal in-bed pose estimation. Performed preprocessing, feature engineering, and analysis on different datasets.
+  * Implemented automated data collection pipelines, including web scraping and API integrations for diverse data sources like OpenSea, social media platforms, integrating crypto and commodity prices from Binance and Yahoo Finance.
+  * Created annotation tools on Tkinter and interactive web applications for Decentraland and Sandbox, presenting micro-feature information. Contributed to model development, achieving 68% accuracy in price prediction and 71% PCKh@0.5 performance in pose estimation.
+  * <strong>Supervisor:</strong> <a href="https://neurog.ai/our-team/dr-abdul-jabbar/" target="_blank">Dr. Abdul Jabbar</a>
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* <strong>Machine Learning Engineer - Freelance</strong>, <i>Fiverr</i> -- July 2020 - September 2021
+  * Provided machine learning and application development services. Completed projects such as: Automated Test Checker and Feedback Generator, Resume Ranking System, and Soccer Score.
+  * <strong>Profile</strong>: <a href="https://www.fiverr.com/abuba8" target="_blank">Link</a>
+
+Teaching Experience
+======
+* <strong>Undergraduate Teaching Assistant</strong>, <i>Air University</i> -- January 2020 - July 2020 
+  * Assisted with planning the syllabus, organizing guest lectures, designing course and lab assignments, and collecting feedback for CS469: Data Science.
+  * <strong>Instructor:</strong> <a href="https://scholar.google.com.pk/citations?user=Rrs55QEAAAAJ&hl=en" target="_blank">Dr. Syed Atif Mouqarrab</a>
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* <strong>Programming Languages:</strong> Python, C++, JavaScript
+* <strong>Machine Learning:</strong> PyTorch, TensorFlow, SkLearn, Pandas, NumPy, OpenCV, NLTK, SpaCy
+* <strong>Databases & Visualization:</strong> MongoDB, SQL, Matplotlib, Seaborn, PowerBI
 
-Publications
+Certifications
+======
+* Microsoft Certified: Azure Data Scientist Associate, DP-100, Microsoft (On-going)<a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/?practice-assessment-type=certification" target="_blank">Link</a>
+* Deep Learning Specialization, Coursera, <a href="https://www.coursera.org/account/accomplishments/verify/5KZ9S5QRAXXZ" target="_blank">Link</a>
+* Deep Learning, Udemy, <a href="https://www.udemy.com/certificate/UC-9a28902a-8dd3-4c0b-aedf-e363bc728714/" target="_blank">Link</a>
+* Machine Learning, Udemy, <a href="https://www.udemy.com/certificate/UC-9a28902a-8dd3-4c0b-aedf-e363bc728714/" target="_blank">Link</a>
+* PowerBI, Udemy, <a href="https://www.udemy.com/certificate/UC-14b4062b-b216-4f45-bf12-925f7778cf4e/" target="_blank">Link</a>
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -51,14 +68,14 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
