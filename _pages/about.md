@@ -8,7 +8,7 @@ redirect_from:
 ---
 <h2>Welcome</h2>
 
-Hello! I am a <strong>Machine Learning Engineer/Data Scientist,</strong> dedicated to solving complex problems and making a meaningful impact on people's lives. I thrive on understanding and implementing machine learning models from scratch, diving deep into the code to truly master their workings. Check my <a href="/cv/"> Resume/CV</a>, and my <a href="/portfolio/">Portfolio</a>.
+Hello! I am a <strong>Machine Learning Engineer/Data Scientist,</strong> dedicated to solving complex problems and making a meaningful impact on people's lives. I thrive on understanding and implementing machine learning models from scratch, diving deep into the code. Check my <a href="/cv/"> Resume/CV</a>, and my <a href="/portfolio/">Portfolio</a>.
 
 Over the years, I’ve had the privilege of working across a wide range of domains, including:
 - <strong>VideoQA:</strong> Exploring video-language interactions for question answering.
