@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * <strong>M.Sc. Artificial Intelligence</strong>, <i>University of Essex</i>, Colchester, United Kingdom -- 2024
-  * <strong>Grade:</strong> Distinction (86%, CGPA: 4.0)
+  * <strong>Grade:</strong> Distinction, CGPA: 4.0
   * Academic Excellence Scholarship
   * <strong>Coursework:</strong> Coursework: Deep Learning, Machine Learning, Natural Language Engineering, Intelligent Systems and Robotics, Data Science and Decision Making, Big Data for Computational Finance
   * <strong>Dissertation Advisor:</strong> <a href="https://www.essex.ac.uk/people/CITIL35902/Luca-Citi" target="_blank">Dr. Luca Citi</a>
@@ -46,13 +46,15 @@ Teaching Experience
   
 Skills
 ======
-* <strong>Programming Languages:</strong> Python, C++, JavaScript
-* <strong>Machine Learning:</strong> PyTorch, TensorFlow, SkLearn, Pandas, NumPy, OpenCV, NLTK, SpaCy
-* <strong>Databases & Visualization:</strong> MongoDB, SQL, Matplotlib, Seaborn, PowerBI
+* <strong>Programming Languages:</strong> Python, C++, JavaScript, R, Java, C#
+* <strong>Machine Learning:</strong> PyTorch, TensorFlow, SkLearn, Pandas, NumPy, OpenCV, NLTK, SpaCy, LangChain, RAGs, LLMs, VLMs
+* <strong>Databases & Visualization:</strong> MongoDB, SQL, Matplotlib, Seaborn, Plotly, PowerBI
+* <strong>Web Frameworks, Cloud and Tools:</strong> Django, Flask, Angular, Docker, AWS, Git, Jira, Shell Scripting 
 
 Certifications
 ======
-* Microsoft Certified: Azure Data Scientist Associate, DP-100, Microsoft (On-going)<a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/?practice-assessment-type=certification" target="_blank">Link</a>
+* AWS Certified: Machine Learning - Specialty (On-going) <a href="https://aws.amazon.com/certification/certified-machine-learning-specialty/" target="_blank">Link</a>
+* AWS Certified: AI Practitioner <a href="https://aws.amazon.com/certification/certified-ai-practitioner/" target="_blank">Link</a>
 * Deep Learning Specialization, Coursera, <a href="https://www.coursera.org/account/accomplishments/verify/5KZ9S5QRAXXZ" target="_blank">Link</a>
 * Deep Learning, Udemy, <a href="https://www.udemy.com/certificate/UC-9a28902a-8dd3-4c0b-aedf-e363bc728714/" target="_blank">Link</a>
 * Machine Learning, Udemy, <a href="https://www.udemy.com/certificate/UC-9a28902a-8dd3-4c0b-aedf-e363bc728714/" target="_blank">Link</a>

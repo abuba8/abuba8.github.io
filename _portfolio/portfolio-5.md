@@ -1,8 +1,18 @@
 ---
 title: "Non-Fungible Tokens Price Movement Prediction"
-# excerpt: "Test"
+excerpt: Predicting price movements of NFTs using textual analysis, market data, and deep learning models.
 collection: portfolio
 ---
 <!-- [Link to Github Repo](https://github.com/abuba8) -->
-Fetched NFTs and events from OpenSea marketplace and Etherscan; also scraped data from different social networking websites and news sites, i.e., Twitter, Discord, Reddit, TradingView, and Investing. Fetched crypto and general commodities prices from Binance API and Yahoo Finance. Managed, cleaned, and converted raw data into usable information. Performed analysis on textual data and created dashboard on PowerBI. Moreover, built a web application for interactive maps of Sandbox and Decentraland, with micro-feature information. Proposed a LSTM model and achieved an accuracy of 68\%.
-- Tools: Python, PyTorch, APIs, MongoDB, SQL, PowerBI, Web Scraping, Web Development, Automated Scripting, Shell Scripting
+
+<p>The system architecture comprises data acquisition, preprocessing and analysis, dashboard creation, and predictive modeling. This pipeline was designed to harness multimodal data sources, combining blockchain events, social media activity, and market indicators for actionable insights into NFT price movements.</p> <p>Developed an end-to-end system for predicting NFT price movements by integrating and analyzing multimodal data from platforms like OpenSea, Etherscan, and social media (Twitter, Discord, Reddit). Automated the fetching of market prices using Binance API and Yahoo Finance. Cleaned, processed, and analyzed textual and numerical data to uncover actionable insights, creating interactive dashboards and web apps to visualize micro-level NFT and metaverse trends. Proposed and implemented a predictive LSTM model, achieving 68% accuracy in forecasting price trends. Delivered a robust, scalable solution for tracking and predicting NFT market movements.</p>
+- Tools: Python, PyTorch, MongoDB, SQL, PowerBI, APIs, Web Scraping, Web Development, Shell Scripting
+
+<h2>Data Acquisition and Preprocessing</h2>
+<h3>Data Description</h3> <p>Data was sourced from a variety of platforms to ensure comprehensive coverage of factors influencing NFT price movements. Key sources included OpenSea and Etherscan for NFT events and metadata, social media platforms like Twitter, Discord, and Reddit for sentiment analysis, and financial platforms such as Binance and Yahoo Finance for cryptocurrency and commodity prices.</p> <p>Preprocessing involved cleaning raw data by removing duplicates, handling missing values, and standardizing textual inputs for natural language processing tasks. Additional steps included feature extraction and engineering, with data stored and managed using MongoDB and SQL for efficient querying and analysis.</p>
+<h2>Dashboards and Visualization</h2>
+<h3>Interactive Tools</h3> <p>Created dynamic dashboards using PowerBI to visualize trends and insights derived from the data. These dashboards highlighted key metrics, such as NFT trading volumes, price trends, and social sentiment scores, providing stakeholders with actionable intelligence. </p> <p>Developed interactive web apps for Sandbox and Decentraland maps, enabling detailed exploration of NFT-related features, including property locations, trade history, and user interactions. These apps were designed to assist users in identifying valuable assets within virtual environments.</p>
+<h2>Predictive Modeling</h2>
+<h3>Network Details</h3> <p>An LSTM model was designed to predict NFT price movements based on historical price data and textual sentiment analysis. The network architecture included embedding layers for textual features and recurrent layers for capturing temporal dependencies in price data. </p> <p>Training involved a batch size of 32 and 100 epochs, using Adam optimizer with an adaptive learning rate. The model achieved a validation accuracy of 68%, demonstrating its effectiveness in capturing market trends and sentiment-driven price fluctuations.</p>
+<h2>Evaluation and Applications</h2>
+<h3>Evaluation Metrics</h3> <p>Model performance was evaluated using accuracy and mean squared error (MSE) metrics. Results indicated strong correlations between predicted and actual price movements, validating the multimodal approach.</p> 

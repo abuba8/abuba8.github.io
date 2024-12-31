@@ -1,7 +1,16 @@
 ---
 title: "Multimodal In-Bed Pose Estimation"
-# excerpt: "Test"
+excerpt: Improving pose estimation for in-bed scenarios using depth, LWIR, and RGB modalities.
 collection: portfolio
 ---
 <!-- [Link to Github Repo](https://github.com/abuba8) -->
-Worked with a team of three ML Engineers for in-bed pose estimation using multiple modalities including depth, long-wavelength infrared, and RGB. Collected multi-modal data of 70+ participants and 13,000 pose images (using Azure Kinect) in three different room settings to ensure robustness. Integrated domain cameras APIs for data collection; and developed Tkinter-based annotation tool for cross-domain joints labeling of the collected dataset. Implemented Stacked Hourglass network using depth and LWIR modalities to predict joint heatmaps. Achieved a high performance of 71\% at PCKh@0.5.
+
+<p>The entire system architecture consists of three major components: data collection and preprocessing, pose estimation, and evaluation. The pipeline ensures robust performance across diverse room settings by leveraging multimodal data inputs and advanced neural network architectures.</p> <p>Developed a system integrating depth and long-wavelength infrared (LWIR) data for accurate joint heatmap prediction, focusing on enhancing in-bed pose estimation for medical and caregiving applications. Led the collection of multimodal data from 70+ participants using Azure Kinect, capturing over 13,000 pose images across three distinct room settings. Built custom tools for efficient data annotation, including a Tkinter-based application for cross-domain joint labeling. Implemented and fine-tuned a Stacked Hourglass network to predict joint positions, achieving 71% accuracy at PCKh@0.5. The robust system demonstrates high adaptability to varied environmental conditions.</p>
+- Tools: Python, PyTorch, pyKinectAzure, Tkinter, JSON
+
+<h2>Data Collection and Annotation</h2>
+<h3>Data Description</h3> <p>Data collection involved participants lying in various poses under three different room conditions to ensure robustness. The dataset was captured using Azure Kinect, which provided synchronized depth, RGB, and LWIR modalities. A total of 13,000 images were collected from over 70 participants.</p> <p>Preprocessing steps included extracting frames from video streams and cleaning the data by removing low-quality frames. For annotation, a custom Tkinter-based tool was developed to label joints across RGB, depth, and LWIR data. This tool facilitated accurate joint labeling and ensured consistency across modalities. Data augmentation techniques, such as flipping and rotation, were applied to enhance model generalization.</p>
+<h2>Pose Estimation</h2>
+<h3>Network Details</h3> <p>The Stacked Hourglass network was implemented for joint heatmap prediction. Depth and LWIR modalities were primarily used for training to capture robust pose information, while RGB data provided additional context during evaluation. The network architecture involved multiple stacked hourglass blocks to refine predictions iteratively, focusing on key joint locations.</p> <p>Training involved a batch size of 16 and an epoch count of 50, using an adaptive learning rate. The dataset was split into training, validation, and test sets, with a balanced distribution of poses and room conditions to prevent bias. The model achieved a significant performance metric of 71% PCKh@0.5, outperforming baseline methods in multimodal pose estimation.</p>
+<h2>Evaluation and Application</h2>
+<h3>Evaluation Metrics</h3> <p>Performance was evaluated using Percentage of Correct Keypoints (PCKh) at a 0.5 threshold. The system demonstrated strong generalization across diverse room settings, with consistent accuracy across test scenarios.</p> 
