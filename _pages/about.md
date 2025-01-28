@@ -40,4 +40,4 @@ My research interests lie at the intersection of cutting-edge AI fields, includi
 
 My ultimate goal is to continue innovating in these fields while collaborating with like-minded individuals to advance AI for the betterment of society.
 <br><br>
-If any of the above sounds interesting to you, I would love to hear from you! Feel free to reach me at abuba831 [at] gmail [dot] com.
+If any of the above sounds interesting to you, I would love to hear from you! Feel free to reach me at abdullah [dot] ahmad [dot] ac [at] gmail [dot] com or abuba831 [at] gmail [dot] com.
