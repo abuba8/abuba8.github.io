@@ -38,6 +38,11 @@ Work Experience
   * Provided machine learning and application development services. Completed projects such as: Automated Test Checker and Feedback Generator, Resume Ranking System, and Soccer Score.
   * <strong>Profile</strong>: <a href="https://www.fiverr.com/abuba8" target="_blank">Link</a>
 
+Lab Affiliations
+======
+* <strong>Brain-Computer Interfaces and Neural Engineering</strong>, <i>Graduate Student, University of Essex</i> -- January 2024 - January 2025 
+* <strong>Center For Data Science and Artificial Intelligence</strong>, <i>Undergraduate Student, Air University</i> -- January 2020 - July 2020 
+
 Teaching Experience
 ======
 * <strong>Undergraduate Teaching Assistant</strong>, <i>Air University</i> -- January 2020 - July 2020 

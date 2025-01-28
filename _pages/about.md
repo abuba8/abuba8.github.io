@@ -33,7 +33,9 @@ My research interests lie at the intersection of cutting-edge AI fields, includi
 <ul>
   <li>Computer Vision and Natural Language Processing</li>
   <li>Deep Learning, Multimodal Learning, and foundational models like LLMs and VLMs</li>
-  <li>Video Question Answering, Image/Video Generation, and Retrieval-Augmented Generation (RAGs)</li>
+  <li>Multimodal fusion techniques</li>
+  <li>Optimization and advancements of LLMs and VLMs</li>
+  <li>Small Language Models for Edge Devices</li>
 </ul>
 
 My ultimate goal is to continue innovating in these fields while collaborating with like-minded individuals to advance AI for the betterment of society.
