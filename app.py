@@ -6,48 +6,6 @@ app = Flask(__name__)
 NEWS = []
 
 PUBLICATIONS = [
-    # {
-    #     "slug": "in-context-label-bias",
-    #     "title": "Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric",
-    #     "venue": "Empirical Methods in Natural Language Processing (EMNLP), 9th BlackBoxNLP Workshop",
-    #     "authors": "Abdullah Ahmad, Ahmed J.O. Ahmed, Luca Citi",
-    #     "year": "2026",
-    #     "abstract": """
-    #     LLM-as-judge has become a standard way to
-    #     score open-ended model outputs, yet the judge
-    #     is itself a frozen language model steered by
-    #     a few in-context examples, and such models
-    #     are known to absorb the label balance of their
-    #     demonstrations rather than treat them as neutral illustrations. We ask whether this label
-    #     bias reaches an LLM judge used inside a multimodal (video question answering) evaluation
-    #     pipeline, and what form it takes. Using a
-    #     fully frozen generator–judge pipeline, we hold
-    #     the generated answers fixed and vary only the
-    #     Yes/No balance of the judge’s few-shot exam-
-    #     ples across four demonstration sets, validating
-    #     each verdict against a two-annotator human
-    #     consensus on 200 examples per dataset. The
-    #     judge’s acceptance rate stays close to human
-    #     consensus when its examples are balanced or
-    #     skewed toward rejection, but jumps sharply—
-    #     by about 30 points on NExT-QA and 20 on
-    #     MSVD-QA, with a strongly one-sided error
-    #     profile—when the examples are skewed to-
-    #     ward acceptance; the opposite skew produces
-    #     no matching drop. The bias is therefore one-
-    #     directional. A separate five-draw analysis
-    #     shows that results from a single example draw
-    #     are unreliable, varying by up to 18 points—
-    #     more than any difference between prompting
-    #     conditions. We conclude that demonstration
-    #     label bias in an LLM judge is a directional,
-    #     inflation-only failure mode that can fabricate
-    #     apparent benchmark gains but not losses, and
-    #     that it is cheaply avoided by balancing the
-    #     judge’s examples and reporting results averaged over several draws.
-    #     """,
-    #     "link": "https://github.com/abuba8/When-Few-Shot-Hurts",
-    # },
     {
         "slug": "smart-vision-glasses",
         "title": "Safety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models",
