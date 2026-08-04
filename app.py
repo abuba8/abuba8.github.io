@@ -86,12 +86,12 @@ PROJECTS = [
 ]
 
 FUN_FACTS = [
-    {"icon": "♟", "title": "Chess problem composer",
-     "text": "I make endgame studies in my spare time."},
+    {"icon": "🎮", "title": "Video game enthusiast",
+     "text": "Love playing video games in my spare time."},
     {"icon": "📷", "title": "Film photography",
      "text": "Shoot mostly on a D7100 Nikon."},
-    {"icon": "🗺", "title": "Cartography hobbyist",
-     "text": "I collect old topographic maps of places I've never been."},
+    {"icon": "⚽", "title": "Football fan",
+     "text": "Love playing football and never miss a good match."}
 ]
 
 CONTACT = {
