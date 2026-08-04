@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}CV — Abdullah Ahmad{% endblock %}
+
+{% block content %}
+<article class="detail container">
+  <header class="detail-header">
+    <h1>Curriculum Vitae</h1>
+    <p class="project-tagline">Software Engineer · Independent Researcher</p>
+  </header>
+
+  <div class="detail-actions" style="margin-bottom: 36px;">
+    <a href="#" class="action-btn">Download PDF ↓</a>
+  </div>
+
+  <section class="cv-section">
+    <h2 class="prose-h2">Experience</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>Software Engineer  · Ernst &amp Young</h3>
+        <span class="cv-date">2026 — Present</span>
+      </div>
+      <p>Client: Fidelity Investments</p>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>Independent Researcher</h3>
+        <span class="cv-date">2024 — Present</span>
+      </div>
+      <p>Deep learning and multimodal AI.</p>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>Research Engineer - Machine Learning · Air University</h3>
+        <span class="cv-date">2022 — 2023</span>
+      </div>
+      <p>Led multi-domain CV/NLP research: ECG arrhythmia classification, and COVID vaccine sentiment analysis. </p>
+      <p>Proposed a hybrid Residual-Inception architecture for ECG classification; ranked 3rd on the PhysioNet/Kaggle benchmark. </p>
+      <p>Fine-tuned BERT on 10k+ annotated tweets for sentiment analysis; achieved 95.62 F1; built end-to-end scraping, labeling, and reporting pipelines. </p>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>Machine Learning Engineer · Neurog</h3>
+        <span class="cv-date">2021 — 2022</span>
+      </div>
+      <p>Built a 2D in-bed human pose estimation pipeline achieving 71% PCKh@0.5; integrated lightweight CV model with annotated dataset delivery. </p>
+      <p>Developed NFT price prediction system (68% accuracy) integrating OpenSea, Binance, and Yahoo Finance APIs; shipped Streamlit web apps for client demos. </p>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2 class="prose-h2">Education</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>M.S. Computer Science · Georgia Institute of Technology</h3>
+        <span class="cv-date">2026 — Present</span>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>M.S. Artificial Intelligence · University of Essex</h3>
+        <span class="cv-date">2023 — 2024</span>
+      </div>
+      <p>Thesis: Video Question Answering  — Advisor: Dr. Luca Citi</p>
+      <p>Distinction — 4.0 — Academic Excellence Scholarship</p>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>B.S. Computer Science · Air University</h3>
+        <span class="cv-date">2016 — 2020</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2 class="prose-h2">Skills</h2>
+    <div class="info-row">
+      <span class="info-label">Languages</span>
+      <span class="stack">
+        <span class="tag">Python</span><span class="tag">Java</span><span class="tag">TypeScript</span><span class="tag">SQL</span>
+      </span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">ML</span>
+      <span class="stack">
+        <span class="tag">PyTorch</span><span class="tag">Langchain</span><span class="tag">Tensorflow</span><span class="tag">CUDA</span>
+      </span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Systems</span>
+      <span class="stack">
+        <span class="tag">Dockers</span><span class="tag">Kubernetes</span><span class="tag">MLFlow</span><span class="tag">Postgres</span><span class="tag">MongoDB</span><span class="tag">Kafka</span><span class="tag">Spark</span>
+      </span>
+    </div>
+  </section>
+
+  <section class="cv-section">
+   <h2 class="prose-h2">Research Labs</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>Brain-Computer Interfaces and Neural Engineering, Graduate Student, University of Essex</h3>
+        <span class="cv-date">2024-2025</span>
+      </div>
+      <div class="cv-entry-head">
+        <h3>Center For Data Science and Artificial Intelligence, Undergraduate Student, Air University</h3>
+        <span class="cv-date">2019-2020</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section">  
+  <h2 class="prose-h2">Certifications</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <h3>AWS Developer Associate — In Progress</h3>
+        <span class="cv-date">Aug 25, 2026 (Expected)</span>
+      </div>
+      <div class="cv-entry-head">
+        <h3>Oracle Certified Professional: Java SE 17 Developer — <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=9E94A26D1E6025C1BBD596B4457E547E2223331879A08D9D2D749814FE7AF5B8" style="color: #969696; text-decoration: none;">Link</a></h3>
+        <span class="cv-date">Jun 5, 2026</span>
+      </div>
+      <div class="cv-entry-head">
+        <h3>Oracle Certified Associate: Java SE 8 Programmer I — <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=645BCDCF887449C1314A6EE13174109223EB9F510022E132E82EDF4106395D06" style="color: #969696; text-decoration: none;">Link</a></h3>
+        <span class="cv-date">May 15, 2026</span>
+      </div>
+      <div class="cv-entry-head">
+        <h3>AWS Machine Learning Speciality — <a href="https://www.credly.com/badges/26817a88-dc14-4e05-a6f3-282baa718827" style="color: #969696; text-decoration: none;">Link</a></h3>
+        <span class="cv-date">Sep 30, 2025</span>
+      </div>
+      <div class="cv-entry-head">
+        <h3>AWS Certified AI Practitioner — <a href="https://www.credly.com/badges/a63d24bb-ca3c-4680-b015-4de135ddbabd" style="color: #969696; text-decoration: none;">Link</a></h3>
+        <span class="cv-date">Jan 06, 2025</span>
+      </div>
+    </div>
+  </section>
+</article>
+{% endblock %}

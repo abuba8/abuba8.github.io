@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Safety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models — </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/styles.css">
+<script>
+  (function () {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+  })();
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">◆</span>
+      <span class="logo-text">abuba8</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/cv">CV</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+<article class="detail container">
+  <a href="/#publications" class="back-link">← Back to publications</a>
+  <header class="detail-header">
+    <div class="pub-badge">International Digital Public Health Conference, 2nd International Workshop on Architecture-Based IoT and Artificial Intelligence · 2026</div>
+    <h1>Safety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models</h1>
+    <div class="detail-meta">
+      <span>Sefki Kolozali, Abdullah Ahmad, Alireza Kalantarhormozi, Ali Radwan, Ahmed Jafer, Soran Ghaderi, Mustafa Mustafa, Vishwanathan Mohan, Klaus McDonald-Maier</span>
+    </div>
+  </header>
+  <div class="prose">
+    <h2 class="prose-h2">Abstract</h2>
+    <p>
+        AI-enabled assistive navigation for visually impaired
+        individuals must satisfy strict safety, latency, and computational
+        constraints on wearable edge platforms. This paper presents a
+        safety-prioritised multimodal navigation framework implemented
+        on a fully custom-designed and 3D-printed smart glasses platform
+        integrated with an NVIDIA Jetson Orin Nano edge computing
+        module. The system combines lightweight visual object detection,
+        binaural audio localisation, and QR-based contextual cues with
+        constrained small-scale large language model (LLM) reasoning.
+        A deterministic finite state machine (FSM) enforces a hazard-
+        first decision hierarchy, ensuring that safety-critical detections
+        override contextual navigational suggestions while maintaining
+        real-time operation entirely on-device.
+        Experimental results demonstrate 99% audio event recognition
+        accuracy and up to 90.1% precision 85.9% recall for object
+        detection under edge constraints. The 0.5B parameter LLM
+        achieves approximately 2.1 seconds inference latency on the
+        Jetson Orin Nano. The integrated system was validated through a
+        structured 9-minute 45-second indoor navigation trial involving
+        dynamic and static obstacles, during which no unsafe actions
+        occurred. These findings show that compact multimodal models,
+        when embedded within a deterministic safety hierarchy and
+        deployed on dedicated edge hardware, enable reliable real-time
+        assistive navigation without reliance on cloud infrastructure.
+        </p>
+  </div>
+  <div class="detail-actions">
+    <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=1xzZr9wAAAAJ&amp;sortby=pubdate&amp;citation_for_view=1xzZr9wAAAAJ:wbdj-CoPYUoC" class="action-btn" target="_blank" rel="noopener">Read paper ↗</a>
+  </div>
+</article>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-cols">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/#fun-facts">Fun Facts</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://github.com/abuba8">GitHub</a>
+      <a href="">Scholar</a>
+      <a href="https://linkedin.com/in/abuba8">LinkedIn</a>
+      <a href="">Twitter</a>
+    </div>
+    <div class="footer-copy">© All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ pub.title }} — {% endblock %}
+
+{% block content %}
+<article class="detail container">
+  <a href="/#publications" class="back-link">← Back to publications</a>
+  <header class="detail-header">
+    <div class="pub-badge">{{ pub.venue }} · {{ pub.year }}</div>
+    <h1>{{ pub.title }}</h1>
+    <div class="detail-meta">
+      <span>{{ pub.authors }}</span>
+    </div>
+  </header>
+  <div class="prose">
+    <h2 class="prose-h2">Abstract</h2>
+    <p>{{ pub.abstract }}</p>
+  </div>
+  <div class="detail-actions">
+    <a href="{{ pub.link }}" class="action-btn" target="_blank" rel="noopener">Read paper ↗</a>
+  </div>
+</article>
+{% endblock %}

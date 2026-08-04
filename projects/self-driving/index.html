@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Self Driving — John Doe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/styles.css">
+<script>
+  (function () {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+  })();
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">◆</span>
+      <span class="logo-text">abuba8</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/cv">CV</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+<article class="detail container">
+  <a href="/#projects" class="back-link">← Back to projects</a>
+  <header class="detail-header project-header">
+    <div class="project-mark large">SD</div>
+    <h1>Self Driving</h1>
+    <p class="project-tagline">Self-Driving Perception Stack — Real-Time CV Pipeline</p>
+  </header>
+
+  <div class="project-info">
+    <div class="info-row">
+      <span class="info-label">Year</span>
+      <span>2025</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Stack</span>
+      <span class="stack">
+        <span class="tag">PyTorch</span><span class="tag">YOLO</span><span class="tag">MiDaS</span><span class="tag">ONNX</span><span class="tag">ByteTrack/DeepSORT</span>
+      </span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Source</span>
+      <a href="https://github.com/abuba8" class="external-link" target="_blank" rel="noopener">View on GitHub ↗</a>
+    </div>
+  </div>
+
+  <div class="prose">
+    
+      <p>Unified perception pipeline combining YOLOv8 object detection, YOLOv8-seg/ENet lane segmentation (fine-tuned on CULane), MiDaS monocular depth estimation, and traffic sign classification. </p>
+    
+      <p>Per-frame JSON output (objects, lanes, depth map) for downstream planning/control; ONNX export for efficient inference; ByteTrack/DeepSORT multi-object tracking. </p>
+    
+  </div>
+
+  <div class="detail-actions">
+    <a href="https://github.com/abuba8" class="action-btn" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:6px"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      Open repository
+    </a>
+  </div>
+</article>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-cols">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/#fun-facts">Fun Facts</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://github.com/abuba8">GitHub</a>
+      <a href="">Scholar</a>
+      <a href="https://linkedin.com/in/abuba8">LinkedIn</a>
+      <a href="">Twitter</a>
+    </div>
+    <div class="footer-copy">© All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

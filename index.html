@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>abuba8</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/styles.css">
+<script>
+  (function () {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+  })();
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">◆</span>
+      <span class="logo-text">abuba8</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/cv">CV</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+
+<section class="hero container">
+  <div class="hero-text">
+    
+    <div class="status-pill status-open">
+      <span class="status-dot"></span>Available for research collaborations
+    </div>
+    
+    <h1>Hey, I'm Abdullah <span class="phonetic">/æb'dʊl.ə/</span></h1>
+    <p class="hero-role">Software Engineer @ EY · Data &amp; AI Systems · Incoming Graduate Student @ GeorgiaTech · Dallas, Texas, US</p>
+    <p class="hero-headline">Building data &amp; training systems for multimodal foundation models · Open to research collaborations</p>
+    <!-- <p>Independent researcher working on deep learning and multimodal AI. I build the data pipelines, training infrastructure, and evaluation tools that sit underneath modern foundation models — and I write about what I learn along the way.</p> -->
+    <p>Software engineer @ EY by day. Outside of work I do independent research on deep learning and multimodal AI — writing the data pipelines, training infrastructure, and evaluation tools that sit underneath modern foundation models, and writing about what I learn along the way.</p>
+  </div>
+  <div class="hero-image">
+    <div class="avatar">
+          <img src="static/img/img.jpeg" alt="JD" />
+    </div>
+  </div>
+</section>
+
+<section id="news" class="section container">
+  <h2 class="section-title">News</h2>
+  
+    <div class="empty-state">
+      <p>Nothing here yet — updates coming soon.</p>
+    </div>
+  
+</section>
+
+<section id="research" class="section container">
+  <div class="research-block">
+    <h2 class="section-title">Research Interests</h2>
+    <p class="research-paragraph">My research sits at the intersection of multimodal representation learning and the data systems that make modern foundation models possible. I&#39;m interested in how the structure of pretraining data shapes what a model learns, how we can build training pipelines that scale gracefully without large compute budgets, and how to evaluate cross-modal understanding in ways that go beyond benchmark accuracy. Increasingly I&#39;m drawn to the messy, infrastructural questions — data curation, deduplication, pretraining recipes — because that&#39;s where the real leverage lives. A lot of what draws me to this side of ML is the same thing I like about my day job: the unglamorous infrastructure work where most of the real progress quietly happens.</p>
+
+    <div class="research-subhead">Current Areas</div>
+    <ul class="research-areas">
+      
+      <li>Multimodal representation learning (vision, language, audio)</li>
+      
+      <li>Data-centric ML and pretraining corpus design</li>
+      
+      <li>Efficient training and inference at small-to-medium scale</li>
+      
+      <li>Evaluation methodology for foundation models</li>
+      
+      <li>Open-source research tooling</li>
+      
+    </ul>
+
+    <!-- <div class="research-subhead">Research Highlights</div>
+     <ul class="research-highlights">
+      
+    </ul> 
+   </div>  -->
+</section>
+
+<section id="publications" class="section container">
+  <h2 class="section-title">Publications</h2>
+  <ul class="pubs-list">
+    
+    <li class="pub">
+      <a href="/publications/smart-vision-glasses">
+        <div class="pub-year">2026</div>
+        <div class="pub-body">
+          <h3>Safety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models</h3>
+          <div class="pub-authors">Sefki Kolozali, Abdullah Ahmad, Alireza Kalantarhormozi, Ali Radwan, Ahmed Jafer, Soran Ghaderi, Mustafa Mustafa, Vishwanathan Mohan, Klaus McDonald-Maier</div>
+          <div class="pub-venue">International Digital Public Health Conference, 2nd International Workshop on Architecture-Based IoT and Artificial Intelligence</div>
+        </div>
+      </a>
+    </li>
+    
+  </ul>
+</section>
+
+<section id="projects" class="section container">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-mark">SD</div>
+        <span class="project-year">2025</span>
+      </div>
+      <h3>Self Driving</h3>
+      <p>Self-Driving Perception Stack — Real-Time CV Pipeline</p>
+      <div class="project-card-footer">
+        <a href="https://github.com/abuba8" class="github-link" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="/projects/self-driving" class="project-arrow">→</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-mark">LVQA</div>
+        <span class="project-year">2025</span>
+      </div>
+      <h3>Long VidQA</h3>
+      <p>LongVidQA — Long-Video Q&amp;A + Highlights Engine</p>
+      <div class="project-card-footer">
+        <a href="https://github.com/abuba8/LongVidQA" class="github-link" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="/projects/long-vid-qa" class="project-arrow">→</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section id="fun-facts" class="section container">
+  <h2 class="section-title">Fun Facts</h2>
+  <div class="fun-grid">
+    
+    <div class="fun-card">
+      <div class="fun-icon">♟</div>
+      <h3>Chess problem composer</h3>
+      <p>I make endgame studies in my spare time.</p>
+    </div>
+    
+    <div class="fun-card">
+      <div class="fun-icon">📷</div>
+      <h3>Film photography</h3>
+      <p>Shoot mostly on a D7100 Nikon.</p>
+    </div>
+    
+    <div class="fun-card">
+      <div class="fun-icon">🗺</div>
+      <h3>Cartography hobbyist</h3>
+      <p>I collect old topographic maps of places I&#39;ve never been.</p>
+    </div>
+    
+  </div>
+</section>
+
+<section id="contact" class="section container">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact-card">
+    <p class="contact-intro">
+      I'm always happy to chat about research collaborations, interesting open-source projects, or
+      problems at the intersection of data and ML systems. Drop me a line.
+    </p>
+    <div class="contact-list">
+      <a href="mailto:abdullah.ahmad.ac@gmail.com" class="contact-row">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">abdullah.ahmad.ac@gmail.com</span>
+      </a>
+      <a href="https://github.com/abuba8" class="contact-row" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">@abuba8</span>
+      </a>
+      <!-- <a href="" class="contact-row" target="_blank" rel="noopener">
+        <span class="contact-label">Google Scholar</span>
+        <span class="contact-value">View publications ↗</span>
+      </a> -->
+      <a href="https://linkedin.com/in/abuba8" class="contact-row" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">in/abuba8</span>
+      </a>
+      <!-- <a href="" class="contact-row" target="_blank" rel="noopener">
+        <span class="contact-label">Twitter</span>
+        <span class="contact-value">@johndoe</span>
+      </a> -->
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-cols">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/#fun-facts">Fun Facts</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://github.com/abuba8">GitHub</a>
+      <a href="">Scholar</a>
+      <a href="https://linkedin.com/in/abuba8">LinkedIn</a>
+      <a href="">Twitter</a>
+    </div>
+    <div class="footer-copy">© All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
