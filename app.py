@@ -70,19 +70,6 @@ PROJECTS = [
             "Model efficiency: distilled teacher model to a 0.5B INT4 student, 63% latency reduction, 71% cost reduction.", 
         ],
     },
-    # {
-    #     "slug": "tinytrain",
-    #     "name": "TinyTrain",
-    #     "initials": "TT",
-    #     "blurb": "Minimal training loop for vision and multimodal models, ~600 lines of readable code.",
-    #     "year": "2024",
-    #     "stack": ["PyTorch", "Accelerate"],
-    #     "github": "https://github.com/johndoe/tinytrain",
-    #     "description": [
-    #         "An educational training framework I wrote while teaching a graduate seminar. Prioritizes readability over feature completeness — the goal is for any student to read the whole codebase in an afternoon.",
-    #         "Quietly used by a handful of research labs as a starting point for their own training infrastructure.",
-    #     ],
-    # },
 ]
 
 FUN_FACTS = [
