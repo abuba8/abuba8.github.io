@@ -38,7 +38,7 @@ PUBLICATIONS = [
         deployed on dedicated edge hardware, enable reliable real-time
         assistive navigation without reliance on cloud infrastructure.
         """,
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1xzZr9wAAAAJ&sortby=pubdate&citation_for_view=1xzZr9wAAAAJ:wbdj-CoPYUoC",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11650519",
     },
 ]
 
