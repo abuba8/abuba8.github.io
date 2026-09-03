@@ -52,7 +52,7 @@ PUBLICATIONS = [
         "slug": "smart-vision-glasses",
         "title": "Safety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models",
         "venue": "International Digital Public Health Conference, 2nd International Workshop on Architecture-Based IoT and Artificial Intelligence",
-        "authors": "Sefki Kolozali, Abdullah Ahmad, Alireza Kalantarhormozi, Ali Radwan, Ahmed Jafer, Soran Ghaderi, Mustafa Mustafa, Vishwanathan Mohan, Klaus McDonald-Maier",
+        "authors": "Sefki Kolozali, Abdullah Ahmad, Alireza Kalantarhormozi, Ali Radwan, Ahmed J.O. Ahmed, Soran Ghaderi, Mustafa Mustafa, Vishwanathan Mohan, Klaus McDonald-Maier",
         "year": "2026",
         "abstract": """
         AI-enabled assistive navigation for visually impaired
