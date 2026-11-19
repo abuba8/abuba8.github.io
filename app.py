@@ -2,8 +2,27 @@ from flask import Flask, render_template, request, jsonify, abort
 
 app = Flask(__name__)
 
-# News section is intentionally empty — user will populate later
-NEWS = []
+# Newest first. "link" is optional.
+NEWS = [
+    {
+        "date": "Sep 2026",
+        "text": "Paper \u201cYour Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric\u201d accepted at BlackboxNLP 2026 @ EMNLP 2026 (Budapest).",
+        "link": "https://aclanthology.org/2026.blackboxnlp-1.40.pdf",
+    },
+    {
+        "date": "Jun 2026",
+        "text": "Paper \u201cSafety-Prioritised Multimodal Navigation for Edge Smart Glasses with Constrained On-Device Language Models\u201d presented at the 11th International Digital Public Health Conference (DPH 2026, Barcelona).",
+        "link": "https://ieeexplore.ieee.org/document/11650519",
+    },
+    {
+        "date": "Apr 2026",
+        "text": "Joined EY as a Software Engineer.",
+    },
+    {
+        "date": "Apr 2026",
+        "text": "Admitted to the Ph.D. in Computer Science at Arizona State University and the M.S. in Computer Science at Georgia Tech.",
+    },
+]
 
 PUBLICATIONS = [
     {
@@ -46,7 +65,8 @@ PUBLICATIONS = [
         that it is cheaply avoided by balancing the
         judge’s examples and reporting results averaged over several draws.
         """,
-        "link": "https://github.com/abuba8/When-Few-Shot-Hurts",
+        "link": "https://aclanthology.org/2026.blackboxnlp-1.40.pdf",
+        "code": "https://github.com/abuba8/When-Few-Shot-Hurts",
     },
     {
         "slug": "smart-vision-glasses",
@@ -80,7 +100,7 @@ PUBLICATIONS = [
         deployed on dedicated edge hardware, enable reliable real-time
         assistive navigation without reliance on cloud infrastructure.
         """,
-        "link": "https://ieeexplore.ieee.org/abstract/document/11650519",
+        "link": "https://ieeexplore.ieee.org/document/11650519",
     },
 ]
 
@@ -112,15 +132,6 @@ PROJECTS = [
             "Model efficiency: distilled teacher model to a 0.5B INT4 student, 63% latency reduction, 71% cost reduction.", 
         ],
     },
-]
-
-FUN_FACTS = [
-    {"icon": "🎮", "title": "Video game enthusiast",
-     "text": "Love playing video games in my spare time."},
-    {"icon": "📷", "title": "Film photography",
-     "text": "Shoot mostly on a D7100 Nikon."},
-    {"icon": "⚽", "title": "Football fan",
-     "text": "Love playing football and never miss a good match."}
 ]
 
 CONTACT = {
@@ -173,7 +184,6 @@ def home():
         news=NEWS,
         publications=PUBLICATIONS,
         projects=PROJECTS,
-        fun_facts=FUN_FACTS,
         contact=CONTACT,
         headline=HEADLINE,
         status=STATUS,

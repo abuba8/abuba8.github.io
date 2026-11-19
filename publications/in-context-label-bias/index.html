@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric — </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/styles.css">
+<script>
+  (function () {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+  })();
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">◆</span>
+      <span class="logo-text">abuba8</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/cv">CV</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  
+<article class="detail container">
+  <a href="/#publications" class="back-link">← Back to publications</a>
+  <header class="detail-header">
+    <div class="pub-badge">Empirical Methods in Natural Language Processing (EMNLP), 9th BlackBoxNLP Workshop · 2026</div>
+    <h1>Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric</h1>
+    <div class="detail-meta">
+      <span>Abdullah Ahmad, Ahmed J.O. Ahmed, Luca Citi</span>
+    </div>
+  </header>
+  <div class="prose">
+    <h2 class="prose-h2">Abstract</h2>
+    <p>
+        LLM-as-judge has become a standard way to
+        score open-ended model outputs, yet the judge
+        is itself a frozen language model steered by
+        a few in-context examples, and such models
+        are known to absorb the label balance of their
+        demonstrations rather than treat them as neutral illustrations. We ask whether this label
+        bias reaches an LLM judge used inside a multimodal (video question answering) evaluation
+        pipeline, and what form it takes. Using a
+        fully frozen generator–judge pipeline, we hold
+        the generated answers fixed and vary only the
+        Yes/No balance of the judge’s few-shot exam-
+        ples across four demonstration sets, validating
+        each verdict against a two-annotator human
+        consensus on 200 examples per dataset. The
+        judge’s acceptance rate stays close to human
+        consensus when its examples are balanced or
+        skewed toward rejection, but jumps sharply—
+        by about 30 points on NExT-QA and 20 on
+        MSVD-QA, with a strongly one-sided error
+        profile—when the examples are skewed to-
+        ward acceptance; the opposite skew produces
+        no matching drop. The bias is therefore one-
+        directional. A separate five-draw analysis
+        shows that results from a single example draw
+        are unreliable, varying by up to 18 points—
+        more than any difference between prompting
+        conditions. We conclude that demonstration
+        label bias in an LLM judge is a directional,
+        inflation-only failure mode that can fabricate
+        apparent benchmark gains but not losses, and
+        that it is cheaply avoided by balancing the
+        judge’s examples and reporting results averaged over several draws.
+        </p>
+  </div>
+  <div class="detail-actions">
+    <a href="https://aclanthology.org/2026.blackboxnlp-1.40.pdf" class="action-btn" target="_blank" rel="noopener">Read paper ↗</a>
+    <a href="https://github.com/abuba8/When-Few-Shot-Hurts" class="action-btn" target="_blank" rel="noopener">Code ↗</a>
+  </div>
+</article>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-cols">
+      <a href="/#news">News</a>
+      <a href="/#research">Research</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#projects">Projects</a>
+      <a href="/#fun-facts">Fun Facts</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://github.com/abuba8">GitHub</a>
+      <a href="">Scholar</a>
+      <a href="https://linkedin.com/in/abuba8">LinkedIn</a>
+      <a href="">Twitter</a>
+    </div>
+    <div class="footer-copy">© All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

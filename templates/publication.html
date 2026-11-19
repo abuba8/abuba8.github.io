@@ -17,6 +17,7 @@
   </div>
   <div class="detail-actions">
     <a href="{{ pub.link }}" class="action-btn" target="_blank" rel="noopener">Read paper ↗</a>
+    {% if pub.code %}<a href="{{ pub.code }}" class="action-btn" target="_blank" rel="noopener">Code ↗</a>{% endif %}
   </div>
 </article>
 {% endblock %}

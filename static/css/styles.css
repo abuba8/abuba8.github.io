@@ -174,6 +174,8 @@ body {
   padding-top: 2px;
 }
 .news-text { flex: 1; }
+.news-text a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.news-text a:hover { color: var(--fg); }
 
 /* Publications */
 .pubs-list { list-style: none; }
@@ -428,7 +430,7 @@ body {
 .prose p { margin-bottom: 20px; }
 .prose p:last-child { margin-bottom: 0; }
 
-.detail-actions { margin-top: 32px; }
+.detail-actions { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 10px; }
 .action-btn {
   display: inline-block;
   padding: 11px 20px;

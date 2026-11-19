@@ -29,7 +29,7 @@
       {% for item in news %}
       <li class="news-item">
         <span class="news-date">{{ item.date }}</span>
-        <span class="news-text">{{ item.text }}</span>
+        <span class="news-text">{{ item.text }}{% if item.link %} <a href="{{ item.link }}" target="_blank" rel="noopener">[link]</a>{% endif %}</span>
       </li>
       {% endfor %}
     </ul>
@@ -97,19 +97,6 @@
         </a>
         <a href="{{ url_for('project_detail', slug=p.slug) }}" class="project-arrow">→</a>
       </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
-
-<section id="fun-facts" class="section container">
-  <h2 class="section-title">Fun Facts</h2>
-  <div class="fun-grid">
-    {% for f in fun_facts %}
-    <div class="fun-card">
-      <div class="fun-icon">{{ f.icon }}</div>
-      <h3>{{ f.title }}</h3>
-      <p>{{ f.text }}</p>
     </div>
     {% endfor %}
   </div>
